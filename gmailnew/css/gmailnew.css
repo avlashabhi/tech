@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	margin: 0px;
+	padding: 0px;
+}
+.top{
+	width: 100%;
+}
+.top25{
+	width: 25%;
+	float: left;
+	clear: both;
+	border: 1px solid black;
+}
+.fa-solid{
+	padding: 15px;
+}
+.fa-solid:hover{
+	background-color: lightgrey;
+	border-radius: 18px;
+	opacity: 0.5;
+}
+.i{
+	float: left;
+	width:0px;
+	margin-top: 7px;
+}
+.img{
+	float: left;
+	margin-top: 15px;
+	margin-left: 47px;
+}
+img{
+	width: 109px;
+}
+
+.top50{
+	width: 50%;
+	float: left;
+	
+clear: both;
+}
+.top255{
+	width: 25%;
+	float: left;
+	clear: both;
+	background-color: lightblue;
+	
+}
