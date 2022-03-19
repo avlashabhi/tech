@@ -6,7 +6,8 @@ body{
 
 }
 .topcontainer{
-
+	border-bottom: 1px solid transparent;
+	box-shadow: 0px 0px 1px grey;
 	width: 100%;
 }
 .top1{
@@ -16,7 +17,7 @@ body{
 margin-top: 20px;
 
 }
-.fa-solid:hover{
+.fa-bars:hover{
 	background-color: grey;
 	border-radius: 20px;
 }
@@ -47,6 +48,11 @@ margin-top: 20px;
 	border: 1px solid grey;
 	outline: transparent;
 	text-indent: 20px;
+	border-radius: 20px;
+}
+.a:hover{
+	background-color: lightgrey;
+	
 }
 .top4{
 	width: 12%;
@@ -67,6 +73,10 @@ margin-top: 20px;
 	margin: auto;
 	background-color: white;
 
+}
+.circle:hover{
+background-color: grey;
+	border-radius: 20px;
 }
 .scircle{
 	width: 5px;
@@ -95,6 +105,8 @@ margin-top: 20px;
 	background-position: center;
 	background-size: 30px;
 }
+
+
 .top6{
 	width: 0.1%;
 	float: left;
@@ -151,7 +163,7 @@ margin-left: 20px;
 .bottomleft{
 width: 20%;
 float: left;
-border: 1px solid grey;
+
 }
 
 .circlee{
@@ -165,6 +177,9 @@ background-image: url(../assets/images/plus.png);
 	background-position-y: 7px;
 	background-size: 25px;
       margin-left: 5px;
+}
+.circlee:hover{
+box-shadow: 0px 0px 5px grey; 
 }
 .comp{
 	padding: 2px;
@@ -220,6 +235,9 @@ clear: both;
 	box-shadow: 0px 0px 3px grey;
 
 }
+.box2:hover{
+background-color: #D3D3D3;
+}
 .box3{
 	width: 90%;
 	padding: 4px;
@@ -237,6 +255,9 @@ clear: both;
 	box-shadow: 0px 0px 3px grey;
 
 }
+.box3:hover{
+background-color: #D3D3D3;
+}
 .box4{
 	width: 90%;
 	padding: 12px;
@@ -247,47 +268,161 @@ clear: both;
 	background-position-y: 9px;
 	background-size: 21px;
 }
+.box4:hover{
+background-color: #D3D3D3;
+}
 .sp4{
-padding: 0px;
-margin-left: 69px;
-margin-top: 2px;
+	padding: 0px;
+	margin-left: 69px;
+	margin-top: 2px;
 }
 .fa-plus{
-margin-left: 88px;
+	margin-left: 88px;
 }
 
 .bottommid{
-width: 75%;
-float: left;
-border: 1px solid black;
+	width: 75%;
+	float: left;
+	
+	
+}
+.midhor{
+
+	padding: 16px;
+}
+.fa-square{
+	padding: 3px;
+	font-size: 18px;
+}
+
+.hor1{
+	float: left;
+	margin-top: 4px;
+}
+.hor2{
+	float: left;
+	margin-top: 10px;
+	margin-left: 17px;
+}
+.hor3{
+	float: left;
+	margin-top: 10px;
+	margin-left: 17px;
+}
+.hor4{
+	float: right;
+	margin-left: 5px;
+	font-size: 16px;
+	opacity: 0.5;
+}
+.hor5{
+	float: right;
+	
+}
+.hor6{
+	float: right;
+	
+}
+.hor654{
+margin-left: 5px;
+}
+.midhorclear{
+	clear: both;
 }
 .midhor1{
-float: left;
-padding: 16px;
+border: 1px solid transparent;
+box-shadow: 0px 0px 0.9px grey;
 }
-.midhor1 .fa-thin{
-font-size: 20px;
-margin-left: 10px;
+.hor11{
+	width: 20%;
+	float: left;
+}
+.fa-regular{
+	opacity: 0.4;
+}
+.hor12{
+	width: 74%;
+	float: left;
+	padding: 2px;
+}
+.hor13{
+	width: 4%;
+	float: right;
+	margin-top: 1px;
+}
+.midhorclear111{
+	clear: both;
+}
+.inner{
+	margin-left: 163px;
+}
+.bottomright{
+width: 4%;
+float: left;	
 
 }
-.midhor1 .fa-arrow-rotate-right{
-font-size: 20px;
-margin-left: 24px;
+.right1{
+	background-image: url(../assets/images/calender.png);
+	background-repeat: no-repeat;
+	background-position-x: 21px;
+	background-position-y: 0px;
+	background-size: 34px;
+		padding: 18px;
+		margin-top: 5px;
 }
-.midhor1 .fa-ellipsis-vertical{
-font-size: 20px;
-margin-left: 24px;
+
+.right2{
+	background-image: url(../assets/images/bulb.png);
+	background-repeat: no-repeat;
+	background-position-x: 21px;
+	background-position-y: 0px;
+	background-size: 34px;
+		padding: 18px;
+		margin-top: 5px;
 }
-.page{
-font-size: 20px;
-margin-left: 600px;
+.right3{
+	background-image: url(../assets/images/tick.png);
+	background-repeat: no-repeat;
+	background-position-x: 21px;
+	background-position-y: 0px;
+	background-size: 34px;
+		padding: 18px;
+		margin-top: 5px;
 }
-.arrows{
-float: left;
-margin-left :7px;
-margin-top: 20px;
+.right4{
+	background-image: url(../assets/images/contacts.png);
+	background-repeat: no-repeat;
+	background-position-x: 21px;
+	background-position-y: 0px;
+	background-size: 34px;
+		padding: 18px;
+		margin-top: 5px;
 }
-.fa-angle-right{
-margin-left :7px;
-margin-top: 20px;
+.right5{
+	background-image: url(../assets/images/pluss.png);
+	background-repeat: no-repeat;
+	background-position-x: 21px;
+	background-position-y: 0px;
+	background-size: 34px;
+		padding: 18px;
+		margin-top: 5px;
+}
+.right6{
+	background-image: url(../assets/images/right-arrow.png);
+	background-repeat: no-repeat;
+	background-position-x: 21px;
+	background-position-y: 0px;
+	background-size: 34px;
+		padding: 18px;
+		margin-top: 5px;
+}
+.midhor1:hover{
+background-color: #D3D3D3;
+background-image: url(../assets/images/pluss.png),url(../assets/images/snooze.png),url(../assets/images/star.png);
+	background-repeat: no-repeat;
+	background-position-x: 828px,848px,868px;
+	background-position-y: 10px,12px,12px;
+	background-size: 15px,15px,15px;
+		padding: 5px;
+		margin-top: 5px;
 }
