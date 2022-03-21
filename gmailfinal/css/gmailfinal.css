@@ -6,9 +6,6 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
-.maincontainer{
-
-}
 .topcontainer{
 	border-bottom: 1px solid transparent;
 	box-shadow: 0px 0px 1px grey;
@@ -18,7 +15,7 @@ body{
 	width: 1%;
 	float: left;
 	margin-left: 8px;
-margin-top: 20px;
+	margin-top: 20px;
 
 }
 .fa-bars:hover{
@@ -65,7 +62,6 @@ margin-top: 20px;
 	float: left;
 	margin-left: 65px;
       margin-top: 15px;
-	
 }
 .compose{
 	margin-top: 10px;
@@ -81,7 +77,7 @@ margin-top: 20px;
 
 }
 .circle:hover{
-background-color: grey;
+	background-color: grey;
 	border-radius: 20px;
 }
 .scircle{
@@ -118,7 +114,7 @@ background-color: grey;
 	float: left;
 	padding: 10px;
 	margin-top: 20px;
-margin-left: 19px;
+	margin-left: 19px;
 	background-image: url(../assets/images/settings.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -127,15 +123,13 @@ margin-left: 19px;
 .top7{
 	width: 0.1%;
 	float: left;
-		margin-top: 20px;
-margin-left: 20px;
-
+	margin-top: 20px;
+	margin-left: 20px;
 	padding: 10px;
 	background-image: url(../assets/images/menu-right.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 35px;
-	
 }
 .top8{
 	width: 7%;
@@ -164,20 +158,19 @@ margin-left: 20px;
 
 .bottomcontainer{
 	width: 100%;
-
 }
 .bottomleft{
-width: 20%;
-float: left;
+	width: 20%;
+	float: left;
 
 }
 
 .circlee{
-width: 122px;
-height: 37px;
-border-radius: 25px;
-border: 1px solid grey;
-background-image: url(../assets/images/plus.png);
+	width: 122px;
+	height: 37px;
+	border-radius: 25px;
+	border: 1px solid grey;
+	background-image: url(../assets/images/plus.png);
 	background-repeat: no-repeat;
 	background-position-x: 13px;
 	background-position-y: 7px;
@@ -185,7 +178,7 @@ background-image: url(../assets/images/plus.png);
       margin-left: 5px;
 }
 .circlee:hover{
-box-shadow: 0px 0px 5px grey; 
+	box-shadow: 0px 0px 5px grey; 
 }
 .comp{
 	padding: 2px;
@@ -216,9 +209,9 @@ box-shadow: 0px 0px 5px grey;
 	float: left;
 }
 .sp2{
-float: left;
-margin-left: 124px;
-margin-top: 4px;
+	float: left;
+	margin-left: 124px;
+	margin-top: 4px;
 }
 .cl12{
 clear: both;
@@ -242,7 +235,7 @@ clear: both;
 
 }
 .box2:hover{
-background-color: #D3D3D3;
+	background-color: #D3D3D3;
 }
 .box3{
 	width: 90%;
@@ -262,12 +255,11 @@ background-color: #D3D3D3;
 
 }
 .box3:hover{
-background-color: #D3D3D3;
+	background-color: #D3D3D3;
 }
 .box4{
 	width: 90%;
 	padding: 12px;
-	
 	background-image: url(../assets/images/right-arrow.png);
 	background-repeat: no-repeat;
 	background-position-x: 10px;
@@ -275,16 +267,16 @@ background-color: #D3D3D3;
 	background-size: 21px;
 }
 .box4:hover{
-background-color: #D3D3D3;
+	background-color: #D3D3D3;
 }
 .chat{
-margin-left: 5px;
+	margin-left: 5px;
 }
 .c5{
-font-size: 13px;
-border-radius: 20px;
-background-color: #fce8e6;
-color: red;
+	font-size: 13px;
+	border-radius: 20px;
+	background-color: #fce8e6;
+	color: red;
 }
 
 
@@ -301,11 +293,8 @@ color: red;
 .bottommid{
 	width: 75%;
 	float: left;
-	
-	
 }
 .midhor{
-
 	padding: 16px;
 }
 .fa-square{
@@ -339,18 +328,17 @@ color: red;
 }
 .hor6{
 	float: right;
-	
 }
 .hor654{
-margin-left: 5px;
+	margin-left: 5px;
 }
 .midhorclear{
 	clear: both;
 }
 .midhor1{
-border: 1px solid transparent;
-box-shadow: 0px 0px 0.9px grey;
-font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+	border: 1px solid transparent;
+	box-shadow: 0px 0px 0.9px grey;
+	font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
 .hor11{
 	width: 20%;
@@ -389,8 +377,8 @@ float: left;
 	background-position-x: 21px;
 	background-position-y: 0px;
 	background-size: 34px;
-		padding: 18px;
-		margin-top: 5px;
+	padding: 18px;
+	margin-top: 5px;
 }
 
 .right2{
@@ -399,8 +387,8 @@ float: left;
 	background-position-x: 21px;
 	background-position-y: 0px;
 	background-size: 34px;
-		padding: 18px;
-		margin-top: 5px;
+	padding: 18px;
+	argin-top: 5px;
 }
 .right3{
 	background-image: url(../assets/images/tick.png);
@@ -408,8 +396,8 @@ float: left;
 	background-position-x: 21px;
 	background-position-y: 0px;
 	background-size: 34px;
-		padding: 18px;
-		margin-top: 5px;
+	padding: 18px;
+	margin-top: 5px;
 }
 .right4{
 	background-image: url(../assets/images/contacts.png);
@@ -417,8 +405,8 @@ float: left;
 	background-position-x: 21px;
 	background-position-y: 0px;
 	background-size: 34px;
-		padding: 18px;
-		margin-top: 5px;
+	padding: 18px;
+	margin-top: 5px;
 }
 .right5{
 	background-image: url(../assets/images/pluss.png);
@@ -426,8 +414,8 @@ float: left;
 	background-position-x: 21px;
 	background-position-y: 0px;
 	background-size: 34px;
-		padding: 18px;
-		margin-top: 5px;
+	padding: 18px;
+	margin-top: 5px;
 }
 .right6{
 	background-image: url(../assets/images/right-arrow.png);
@@ -435,16 +423,16 @@ float: left;
 	background-position-x: 21px;
 	background-position-y: 0px;
 	background-size: 34px;
-		padding: 18px;
-		margin-top: 5px;
+	padding: 18px;
+	margin-top: 5px;
 }
 .midhor1:hover{
-background-color: white;
-background-image: url(../assets/images/pluss.png),url(../assets/images/snooze.png),url(../assets/images/star.png);
+	background-color: white;
+	background-image: url(../assets/images/pluss.png),url(../assets/images/snooze.png),url(../assets/images/star.png);
 	background-repeat: no-repeat;
 	background-position-x: 828px,848px,868px;
 	background-position-y: 0px,5px,5px;
 	background-size: 21px,15px,15px;
-		padding: 0px;
-		margin-top: 0px;
+	padding: 0px;
+	margin-top: 0px;
 }
