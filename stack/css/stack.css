@@ -190,8 +190,7 @@
 	margin-top: 16px;
 }
 .content{
-
-padding: 0px 0px;
+	padding: 0px 0px;
 	margin-left: 21px;
 	font-size: 12px;
 	color: black;
@@ -200,7 +199,7 @@ padding: 0px 0px;
 	width: 70%;
 }
 .free{
-background-image: url(../assets/images/free.png);
+	background-image: url(../assets/images/free.png);
 	background-position: left;
 	background-size: 132px;
 	background-repeat: no-repeat;
@@ -235,7 +234,6 @@ background-image: url(../assets/images/free.png);
 .mainright{
 	float: left;
 	width: 84%;
-	
 }
 .mainclear{
 	clear: both;
@@ -331,8 +329,8 @@ float: left;
 	clear: both;
 }
 .bottomleft{
-width: 25%;
-float: left;
+	width: 25%;
+	float: left;
 
 }
 .stats{
@@ -629,13 +627,13 @@ a{
 	font-family: arial;
 	padding: 5px 8px 5px 3px;
 	margin-left: 6px;
-    	margin-top: 0px;
-    	font-size: 11px;
-    	background-color: #e3e6e8;
-    	width: 112px;
-    	border-radius: 3px;
-    	opacity: 0.6;
-    	border: 1px solid black;
+	margin-top: 0px;
+	font-size: 11px;
+	background-color: #e3e6e8;
+	width: 112px;
+	border-radius: 3px;
+	opacity: 0.6;
+	border: 1px solid black;
 }
 .da1{
 	font-size: 12px;
@@ -782,15 +780,15 @@ a{
 	font-size: 13px;
 	margin-top: 0px;
 	margin-left: 10px;
-background-color: #e1ecf4;
-color: #5991c4;
-text-align: center;
-padding: 5px 10px;
-border-radius: 5px;
-padding : 4px 6px;
+	background-color: #e1ecf4;
+	color: #5991c4;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 5px;
+	padding : 4px 6px;
 }
 .le{
-margin-left: 11px;
+	margin-left: 11px;
 }
 
 .whol12{
@@ -801,8 +799,8 @@ margin-left: 11px;
 	margin-right: 23px;
 }
 .b1{
-font-size: 17px;
-opacity: 1.0;
+	font-size: 17px;
+	opacity: 1.0;
 }
 .whol2{
     border: 1px solid transparent;
@@ -814,73 +812,70 @@ opacity: 1.0;
     box-shadow: 0px 0px 0.7px black;
 }
 .postss1{
-float: left;
+	float: left;
 	font-size: 14px;
-	
 	margin-top: 30px;
 	margin-left: 19px;
 }
 .p1{
-font-size: 23px;
-opacity: 0.8;
+	font-size: 23px;
+	opacity: 0.8;
 }
 .p222{
-font-size: 12px;
-
-color: #0074cc;
+	font-size: 12px;
+	color: #0074cc;
 }
 .posts2{
-float: right;
+	float: right;
 	margin-top: 29px;
 	margin-left: 17px;
 }
 .ps1{
-float: left;
-border: 1px solid black;
-padding: 4px 5px;
-margin-top: 1px;
-margin-left: 1px;
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
-font-size: 12px;
-background-color: #e3e6e8;
-opacity: 0.8;
+	float: left;
+	border: 1px solid black;
+	padding: 4px 5px;
+	margin-top: 1px;
+	margin-left: 1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 12px;
+	background-color: #e3e6e8;
+	opacity: 0.8;
 
 }
 .ps2{
-float: left;
-border: 1px solid black;
-padding: 4px 6px;
-margin-top: 1px;
-margin-left: 0px;
-font-size: 12px;
-opacity: 0.4;
+	float: left;
+	border: 1px solid black;
+	padding: 4px 6px;
+	margin-top: 1px;
+	margin-left: 0px;
+	font-size: 12px;
+	opacity: 0.4;
 }
 .ps3{
-float: left;
-border: 1px solid black;
-padding: 4px 6px;
-margin-top: 1px;
-margin-left: 0px;
-font-size: 12px;
-opacity: 0.4;
-
+	float: left;
+	border: 1px solid black;
+	padding: 4px 6px;
+	margin-top: 1px;
+	margin-left: 0px;
+	font-size: 12px;
+	opacity: 0.4;
 }
 .ps4{
-float: left;
-border: 1px solid black;
-padding: 4px 6px;
-margin-top: 1px;
-margin-left: 0px;
-font-size: 12px;
-border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
-opacity: 0.4;
+	float: left;
+	border: 1px solid black;
+	padding: 4px 6px;
+	margin-top: 1px;
+	margin-left: 0px;
+	font-size: 12px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	opacity: 0.4;
 
 }
 
 .posts3{
-float: right;
+	float: right;
 	font-size: 14px;
 	opacity: 0.9;
 	margin-top: 29px;
@@ -888,35 +883,35 @@ float: right;
 	margin-left: 5px;
 }
 .ps331{
-float: left;
-border: 1px solid black;
-padding: 4px 5px;
-margin-top: 1px;
-margin-left: 1px;
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
-font-size: 12px;
-background-color: #e3e6e8;
-opacity: 0.8;
+	float: left;
+	border: 1px solid black;
+	padding: 4px 5px;
+	margin-top: 1px;
+	margin-left: 1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 12px;
+	background-color: #e3e6e8;
+	opacity: 0.8;
 
 }
 .ps332{
-float: left;
-border: 1px solid black;
-padding: 4px 6px;
-margin-top: 1px;
-margin-left: 0px;
-font-size: 12px;
-border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
-opacity: 0.4;
+	float: left;
+	border: 1px solid black;
+	padding: 4px 6px;
+	margin-top: 1px;
+	margin-left: 0px;
+	font-size: 12px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	opacity: 0.4;
 
 }
 .nextcon{
 	padding: 10px 0px;
 }
 .next{
-border: 1px solid transparent;
+	border: 1px solid transparent;
 	width: 97%;
 	border-radius: 5px;
 	margin-left: 19px;
@@ -925,7 +920,7 @@ border: 1px solid transparent;
 	box-shadow: 0px 0px 0.7px black;
 }
 .fa-message{
-color: #5eba7d;
+	color: #5eba7d;
 }
 .nc1{
     padding: 5px 5px;
@@ -935,15 +930,15 @@ color: #5eba7d;
     border-radius: 5px;
 }
 .nc2{
-margin-left: 12px;
-color: #3d80d2;
-font-size: 16px;
+	margin-left: 12px;
+	color: #3d80d2;
+	font-size: 16px;
 }
 .nc3{
-margin-right: 11px;
-float: right;
-opacity: 0.6;
-font-size: 13px;
+	margin-right: 11px;
+	float: right;
+	opacity: 0.6;
+	font-size: 13px;
 }
 .nt1{
     margin-left: 16px;
@@ -952,118 +947,114 @@ font-size: 13px;
     margin-top: 23px;
 }
 .nt2{
-margin-right: 14px;
-float: right;
-opacity: 0.6;
-font-size: 16px;
-margin-top: 24px;
+	margin-right: 14px;
+	float: right;
+	opacity: 0.6;
+	font-size: 16px;
+	margin-top: 24px;
 }
 .fa-circle-question{
-font-size: 16px;
+	font-size: 16px;
 }
 .nc111{
-   padding: 4px 13px;
-    margin-left: 1px;
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-    border: 1px solid black;
-    opacity: 0.5;
+	padding: 4px 13px;
+      margin-left: 1px;
+      background-color: white;
+      color: black;
+      border-radius: 3px;
+      border: 1px solid black;
+      opacity: 0.5;
 }
 .net{
-font-size: 12px;
-margin-top: 5px;
+	font-size: 12px;
+	margin-top: 5px;
 }
-
-
 .footer{
-width: 100%;
+	width: 100%;
 
-background-color: black;
-border: 1px solid black;
+	background-color: black;
+	border: 1px solid black;
 }
 .flogo{
-float: left;
-
+	float: left;
 }
 .f2{
-float: left;
-color: white;
-background-color: black;
-margin-top: 38px;
-margin-left: 32px;
+	float: left;
+	color: white;
+	background-color: black;
+	margin-top: 38px;
+	margin-left: 32px;
 }
 .f21{
-font-size: 14px;
-    margin-left: 5px;
-    font-weight: bold;
-    opacity: 0.7;
+	font-size: 14px;
+      margin-left: 5px;
+      font-weight: bold;
+      opacity: 0.7;
 }
 .f22{
-font-size: 13px;
-    margin-left: 7px;
-    margin-top: 17px;
-    opacity: 0.5;
+      font-size: 13px;
+      margin-left: 7px;
+      margin-top: 17px;
+      opacity: 0.5;
 }
 .f23{
-font-size: 13px;
+    font-size: 13px;
     margin-left: 7px;
     margin-top: 8px;
     opacity: 0.5;
 }
 .f24{
-font-size: 13px;
+    font-size: 13px;
     margin-left: 7px;
     margin-top: 8px;
     opacity: 0.5;
 }
 .f25{
-font-size: 13px;
+    font-size: 13px;
     margin-left: 7px;
     margin-top: 8px;
     opacity: 0.5;
 }
 .f3{
-float: left;
-color: white;
-background-color: black;
-margin-top: 38px;
-margin-left: 32px;
+	float: left;
+	color: white;
+	background-color: black;
+	margin-top: 38px;
+	margin-left: 32px;
 }
 .f4{
-float: left;
-color: white;
-background-color: black;
-margin-top: 38px;
-margin-left: 80px;
+	float: left;
+	color: white;
+	background-color: black;
+	margin-top: 38px;
+	margin-left: 80px;
 }
 .f5{
-float: left;
-color: white;
-background-color: black;
-margin-top: 38px;
-margin-left: 90px;
+	float: left;
+	color: white;
+	background-color: black;
+	margin-top: 38px;
+	margin-left: 90px;
 }
 .f6{
-float: left;
-color: white;
-
-margin-top: 35px;
-margin-left: 58px;
+	float: left;
+	color: white;
+	margin-top: 35px;
+	margin-left: 58px;
 }
 .f666{
-font-size: 11px;
+	font-size: 11px;
     margin-left: 9px;
     margin-top: 8px;
     opacity: 0.5;
 }
 .f66{
-font-size: 11px;
+	font-size: 11px;
     margin-left: 5px;
     margin-top: 203px;
     opacity: 0.5;
 }
 .b2c1{
-clear: both;
+	clear: both;
 }
     
