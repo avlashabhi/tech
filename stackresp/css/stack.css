@@ -1076,11 +1076,12 @@ a{
 	.login{
 		width: 5%;
     	margin-left: 5px;
+		
 	}
 	.signup{
 		width: 6%;
 		padding: 4px 0px;
-		margin-left: 6px;
+		margin-left: 0px;
 	}
 	.but1{
 		padding: 12px 20px;
@@ -1097,6 +1098,34 @@ a{
 	}
 	.btn1{
 		margin-left: 1px;
+	}
+	.gold{
+		width: 44%;
+	}
+	.silver{
+		width: 44%;
+	}
+	.bronze{
+		width: 92%;
+	}
+	.da1,.da2,.da3,.da4,.da12,.da22,.da11{
+		float: right;
+		margin-right: 15px;
+	}
+	.f2{
+		margin-left: 9px;
+	}
+	.f3{
+		margin-left: 10px;
+	}
+	.f4{
+		margin-left: 22px;
+	}
+	.f5{
+		margin-left: 11px;
+	}
+	.f6{
+		margin-left: 11px;
 	}
 }    
 @media  screen and (min-width: 768px) and (max-width: 1023px) {
@@ -1204,6 +1233,102 @@ a{
     margin-top: 5px;
     font-size: 14px;
 	}
+	.but1{
+		margin-left: -48px;
+	}
+	.box1{
+		width: 340%;
+	}
+	.bottomright{
+		width: 76%;
+	}
+	.con{
+		display: none;
+	}
+	.box2{
+		display: none;
+	}
+	.box11 {
+		margin-left: 13px;
+		margin-top: 11px;
+	}
+	.box12 {
+		margin-left: 13px;
+	}
+	.box21 {
+		margin-left: 215px;
+		margin-top: -34px;
+		float: left;
+	}
+	span.spa21 {
+		margin-left: 57px;
+	}
+	.box22 {
+		margin-left: 215px;
+		margin-top: -14px;
+		font-size: 12px;
+	}
+	.trophy{
+		margin-left: 438px;
+    margin-top: -38px;
+	}
+	.trophycont{
+		margin-left: 403px;
+    margin-top: -4px;
+	}
+	.spa22 {
+		margin-left: 40px;
+}
+.gold{
+	width: 54%;
+	margin-left: 28px;
+	margin-top: 7px;
+}
+.silver{
+	width: 52%;
+	margin-left: 336px;
+	margin-top: -185px;
+}
+.badges{
+	margin-left: 28px;
+}
+.bad{
+	margin-right: -99px;
+}
+.bronze{
+	width: 116%;
+	margin-left: 26px;
+}
+.whol1{
+	width: 117%;
+	margin-top: 10px;
+}
+.whol2{
+	width: 117%;
+}
+.alltag{
+	margin-top: 29px;
+	margin-right: -101px;
+}
+.topposts{
+	width: 124%;
+}
+.posts2{
+	margin-top: 45px;
+}
+.posts3{
+	margin-top: 45px;
+}
+.next{
+	width: 118%;
+}
+.nc2{
+	font-size: 14px;
+}
+.nt2{
+	margin-right: -104px;
+}
+
 }
 @media  screen and (min-width: 425px) and (max-width: 767px) {
 	.logo{
@@ -1248,5 +1373,40 @@ a{
 	}
 	.mainleft{
 		display: none;
+	}
+	.topleft1{
+		background-size: 92px;
+		padding: 38px 39px;
+	}
+	.name{
+		width: 52%;
+		margin-left: -37px;
+		margin-top: 95px;
+		font-size: 17px;
+	}
+	.stream{
+		margin-left: -36px;
+		margin-top: -7px;
+		font-size: 17px;
+	}
+	.birth{
+		width: 115%;
+		margin-left: -35px;
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	.location{
+		width: 48%;
+		margin-left: -37px;
+		margin-top: 3px;
+	}
+	.btn{
+		padding: 2px 10px;
+		margin-top: 90px;
+		margin-left: 73px;
+	}
+	.btn1{
+		margin-left: -124px;
+    font-size: 14px;
 	}
 }
