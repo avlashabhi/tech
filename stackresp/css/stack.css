@@ -584,7 +584,7 @@ a{
 	padding: 3px 0px;
 	font-size: 13px;
 	opacity: 0.7;
-	margin-right: 15px;
+	margin-right: 58px;
 }
 .gold{
 	float: left;
@@ -765,13 +765,14 @@ a{
 	opacity: 0.5;
 	margin-top: 20px;
 	margin-left: 17px;
+	margin-right: 23px;
 }
 .whol1{
     border: 1px solid transparent;
     width: 97%;
     border-radius: 5px;
     margin-left: 19px;
-    margin-top: 58px;
+    margin-top: 15px;
     padding: 14px 0px;
     box-shadow: 0px 0px 0.7px black;
 }
@@ -971,93 +972,114 @@ a{
 }
 .footer{
 	width: 100%;
-
+	display: flex;
+	justify-content: space-evenly;
 	background-color: black;
 	border: 1px solid black;
 }
 .flogo{
-	float: left;
-}
-.f2{
-	float: left;
-	color: white;
-	background-color: black;
-	margin-top: 38px;
-	margin-left: 32px;
+	
 }
 .f21{
 	font-size: 14px;
-      margin-left: 5px;
+    
       font-weight: bold;
       opacity: 0.7;
 }
+
 .f22{
       font-size: 13px;
-      margin-left: 7px;
-      margin-top: 17px;
+	  margin-top: 11px;
       opacity: 0.5;
 }
 .f23{
     font-size: 13px;
-    margin-left: 7px;
-    margin-top: 8px;
+	margin-top: 11px;
     opacity: 0.5;
 }
 .f24{
     font-size: 13px;
-    margin-left: 7px;
-    margin-top: 8px;
+	margin-top: 11px;
     opacity: 0.5;
 }
 .f25{
     font-size: 13px;
-    margin-left: 7px;
-    margin-top: 8px;
+	margin-top: 11px;
     opacity: 0.5;
 }
-.f3{
-	float: left;
-	color: white;
-	background-color: black;
-	margin-top: 38px;
-	margin-left: 32px;
+.f26{
+    font-size: 13px;
+	margin-top: 11px;
+    opacity: 0.5;
 }
-.f4{
-	float: left;
-	color: white;
-	background-color: black;
-	margin-top: 38px;
-	margin-left: 80px;
+.f27{
+    font-size: 13px;
+	margin-top: 11px;
+    opacity: 0.5;
 }
-.f5{
-	float: left;
-	color: white;
-	background-color: black;
-	margin-top: 38px;
-	margin-left: 90px;
+.f28{
+    font-size: 13px;
+	margin-top: 11px;
+    opacity: 0.5;
 }
-.f6{
-	float: left;
-	color: white;
-	margin-top: 35px;
-	margin-left: 58px;
+.f29{
+    font-size: 13px;
+	margin-top: 11px;
+    opacity: 0.5;
+}
+.f30{
+    font-size: 13px;
+	margin-top: 11px;
+    opacity: 0.5;
+}
+.f31{
+    font-size: 13px;
+	margin-top: 11px;
+    opacity: 0.5;
 }
 .f666{
-	font-size: 11px;
-    margin-left: 9px;
-    margin-top: 8px;
+	font-size: 13px;
+  
     opacity: 0.5;
 }
 .f66{
 	font-size: 11px;
-    margin-left: 5px;
-    margin-top: 203px;
+	margin-top: 224px;
     opacity: 0.5;
+}
+.f2{
+	color: white;
+	background-color: black;
+	margin-top: 25px;
+}
+.f3{
+	color: white;
+	background-color: black;
+	margin-top: 25px;
+
+}
+.f4{
+	color: white;
+	background-color: black;
+	margin-top: 25px;
+
+}
+.f5{
+	color: white;
+	background-color: black;
+	margin-top: 25px;
+	
+}
+.f6{
+	color: white;
+	margin-top: 22px;
+
 }
 .b2c1{
 	clear: both;
 }
-@media  screen and (min-width: 1024px) and (max-width: 1441px) {
+
+@media  screen and (min-width: 1023px) and (max-width: 1440px) {
 	.logo{
 		width: 14%;
 	}
@@ -1112,21 +1134,7 @@ a{
 		float: right;
 		margin-right: 15px;
 	}
-	.f2{
-		margin-left: 9px;
-	}
-	.f3{
-		margin-left: 10px;
-	}
-	.f4{
-		margin-left: 22px;
-	}
-	.f5{
-		margin-left: 11px;
-	}
-	.f6{
-		margin-left: 11px;
-	}
+	
 }    
 @media  screen and (min-width: 768px) and (max-width: 1023px) {
 	.logo{
@@ -1314,10 +1322,11 @@ a{
 	width: 124%;
 }
 .posts2{
-	margin-top: 45px;
+	margin-top: 41px;
 }
 .posts3{
-	margin-top: 45px;
+	margin-top: 42px;
+	margin-right: 23px;
 }
 .next{
 	width: 118%;
@@ -1328,6 +1337,56 @@ a{
 .nt2{
 	margin-right: -104px;
 }
+.da12,.da22,.da4{
+	float: right;
+	margin-right: 15px;
+}
+.footer{
+	flex-direction: column;
+}
+.f2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 5px;
+	margin-left: -65px;
+}
+.f3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 5px;
+	margin-left: -85px;
+}
+.f4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.f5{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 5px;
+	margin-left: 7px;
+}
+.f6{
+   margin-left: 14px;
+}
+.f21{
+	margin-top: 12px;
+}
+.f3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.f66{
+	margin-top: 11px;
+}
+
 
 }
 @media  screen and (min-width: 425px) and (max-width: 767px) {
@@ -1409,4 +1468,130 @@ a{
 		margin-left: -124px;
     font-size: 14px;
 	}
+	.con{
+		display: none;
+	}
+	.box1{
+		width: 92%;
+		margin-left: 19px;
+	}
+	.box2{
+		display: none;
+	}
+	.bottomleft{
+		width: 123%;
+		margin-left: 12px;
+	}
+	.bottomright{
+		float: none;
+	}
+	.box11 {
+		margin-left: 6px;
+		margin-top: 11px;
+		font-size: 12px;
+	}
+	.box12 {
+		margin-left: 4px;
+	}
+	.box21 {
+		margin-left: 175px;
+		margin-top: -30px;
+		float: left;
+		font-size: 12px;
+	}
+	span.spa21 {
+		margin-left: 57px;
+	}
+	.box22 {
+		margin-left: 174px;
+		margin-top: -14px;
+		font-size: 12px;
+	}
+	.trophy{
+		margin-left: 315px;
+    margin-top: -38px;
+	}
+	.trophycont{
+		margin-left: 322px;
+    margin-top: -4px;
+	}
+	.spa11{
+		margin-left: 54px;
+	}
+	.spa22 {
+		margin-left: 40px;
+}
+.spa12{
+	margin-left: 43px;
+}
+.abou{
+	margin-left: 30px;
+}
+.more{
+	margin-left: 180px;
+}
+.gold,.silver,.bronze{
+	width: 151%;
+}
+.link{
+	margin-left: 32px;
+}
+.da1,.da2,.da3,.da11,.da22,.da4,.da12,.da22,.da4{
+	float: right;
+	margin-right: 10px;
+}
+.bad{
+	margin-right: -149px;
+}
+.badges{
+	margin-left: 25px;
+}
+.whol1{
+	width: 152%;
+	margin-top: 8px;
+}
+.whol2{
+	width: 152%;
+}
+.alltag{
+	margin-top: 25px;
+	margin-right: -153px;
+}
+.posts2{
+	margin-top: 28px;
+    margin-right: -264px;
+}
+.posts3{
+	margin-right: -57px;
+	margin-left: -51px;
+	
+}
+.postss1{
+	margin-top: 9px;
+}
+.p2{
+	margin-top: 6px;
+}
+.next{
+	width: 152%;
+	margin-top: 13px;
+}
+.nc2{
+	font-size: 8px;
+	margin-left: 16px;
+}
+.nc3{
+	margin-top: 9px;
+	font-size: 11px;
+}
+.nt2{
+	margin-right: -151px;
+}
+.footer{
+	flex-direction: column;
+}
+.f66{
+	margin-top: 8px;
+}
+
 }
