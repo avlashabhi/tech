@@ -964,18 +964,34 @@ a{
 	opacity: 0.6;
 	font-size: 13px;
 }
+.next11{
+	display: flex;
+}
+.nt11{
+    margin-left: 15px;
+   
+    font-size: 16px;
+    margin-top: 23px;
+}
+.nt22{
+	margin-left: 574px;
+	
+	opacity: 0.6;
+	font-size: 16px;
+	margin-top: 24px;
+}
 .next1{
 	display: flex;
 }
 .nt1{
-    margin-left: 16px;
-    float: left;
-    font-size: 10px;
+    margin-left: 15px;
+   
+    font-size: 16px;
     margin-top: 23px;
 }
 .nt2{
-	margin-left: 612px;
-	float: right;
+	margin-left: 504px;
+	
 	opacity: 0.6;
 	font-size: 16px;
 	margin-top: 24px;
@@ -1082,3 +1098,395 @@ img{
     margin-top: 203px;
     opacity: 0.5;
 }
+@media screen and (max-width: 1024px) {
+	.what{
+		margin-left: 37px;
+	}
+	.createe{
+		padding: 1px 10px;
+	}
+	.logo{
+		background-size: 168px;
+	}
+	.forteams{
+		flex: 1.1;
+	}
+	.badges{
+		margin-left: 51px;
+	}
+	.bad{
+		margin-right: 44px;
+	}
+	.gsb{
+		display: block;
+	}
+	.gold{
+		width: 42%;
+		margin-left: 47px;
+		margin-top: 7px;
+	}
+	.silver{
+		width: 42%;
+		float: right;
+		margin-left: 47px;
+		margin-top: -182px;
+		margin-right: 40px;
+
+	}
+	.bronze{
+		width: 87%;
+		margin-left: 46px;
+		
+	}
+	.whol1{
+		width: 89%;
+		margin-left: 33px;
+	}
+	.whol2{
+		width: 89%;
+		margin-top: 7px;
+		margin-left:  33px;
+	}
+	.tag{
+		display: block;
+	}
+	.toptag{
+		margin-top: 19px;
+		margin-left:  34px;
+		margin-bottom:  15px;
+	}
+	.alltag{
+		margin-top: -32px;
+		margin-left: 515px;
+	}
+	.next{
+		width:  91%;
+		margin-left: 29px;
+	}
+	.posts2{
+		margin-right: 39px;
+	}
+	.p1{
+		margin-bottom: -2px;
+		margin-left: 12px;
+	}
+	.p2{
+		margin-left: 15px;
+	}
+	.next11{
+		display: block;
+	}
+	.nt11{
+		margin-top: 23px;
+		margin-left: 31px;
+
+	}
+	.nt22{
+		margin-left: 513px;
+		margin-top: -18px;
+	}
+	.nc3{
+		margin-top: 6px;
+	}
+	.next1{
+		display: block;
+	}
+	.net{
+		margin-left: -29px;
+    	display: block;
+    	margin-top: -39px;
+	}
+	.nt1{
+		margin-left: 33px;
+	}
+	.f6{
+		margin-right: 66px;
+	}
+	.f66{
+		font-size: 11px;
+    	margin-left: 17px;
+    	margin-top: 203px;
+	}
+	.f666{
+		font-size: 8px;
+    margin-left: 1px;
+    margin-top: 8px;
+    opacity: 0.5;
+	}
+	.da1{
+		float: right;
+	}
+	.da2{
+		float: right;
+	}
+	.da3{
+		float: right;
+	}
+	.da11{
+		float: right;
+	}
+	.da22{
+		float: right;
+	}
+	.da4{
+		float: right;
+	}
+	.da12{
+	float: right;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.logo{
+		background-size: 138px;
+		margin-left: 0px;
+    	margin-right: -1px;
+	}
+	.bar {
+		 width: none;
+		box-shadow: none;
+		border: 1px solid transparent;
+		outline: black;
+		background-image: url(../assets/images/search.png);
+		background-position: 105px 0px;
+		background-size: 40px;
+		background-repeat: no-repeat;
+		margin-left: 447px;
+		margin-top: 0px;
+	}
+	.login{
+    flex: none;
+    margin-left: -27px;
+    margin-right: 5px;
+	}
+	.stats{
+		
+	}
+	.box1{
+		
+	}
+	.conn{
+		display: none;
+	}
+	.box2{
+		display: none;
+	}
+	.about{
+		display: none;
+	}
+	.forteams{
+		display: none;
+	}
+	.mainbottom{
+		display: block;
+	}
+	.box21 {
+		margin-left: 212px;
+		margin-top: -32px;
+	}
+	.box22 {
+		margin-left: 211px;
+		margin-top: 0px;
+	}
+	.trophy{
+		margin-left: 409px;
+    margin-top: -37px;
+	}
+	.trophycont{
+		margin-left: 415px;
+    margin-top: -4px;
+	}
+	.spa21 {
+		margin-left: 56px;
+	}
+	.spa22 {
+		margin-left: 51px;
+	}
+	.mainleft{
+		flex: 2.5;;
+	}
+	.topleft1{
+		background-size:  115px;
+		padding: 49px 0px;
+	
+		margin-left: 7px;
+    margin-right: 15px;
+	}
+	.btn1{
+		margin-left: 85px;
+    display: block;
+    margin-top: -22px;
+	}
+	.underblocks {
+		margin-top: 82px;
+		margin-left: -11px;
+	}
+	.topmid {
+		margin-top: 96px;
+		margin-left: -131px;
+	}
+	.stream{
+		margin-top: -7px;
+	}
+	.name{
+		margin-left: 9px;
+    margin-top: 9px;
+    font-size: 22px;
+	}
+	.birth{
+		margin-left: 13px;
+    margin-top: 0px;
+	}
+	.location{
+		margin-left: 13px;
+    margin-top: 0px;
+	}
+	.but1{
+		margin-left: -38px;
+	}
+	.nc3 {
+		margin-top: 6px;
+	}
+	.nc2 {
+		font-size: 14px;
+	}
+	.footer{
+		display: block;
+	}
+	img {
+		width: 6%;
+		height: 0%;
+		margin-left: 19px;
+	}
+	.f21{
+		margin-bottom: 9px;
+	}
+	.f22,.f23,.f24,.f25{
+		display: inline;
+	}
+	.f2,.f3,.f4,.f5,.f6{
+		margin-left: 21px;
+	}
+	.f666{
+		font-size: 13px;
+    margin-left: 8px;
+    margin-top: 8px;
+	}
+	.f66{
+		font-size: 13px;
+    margin-left: 7px;
+    margin-top: 7px;
+    margin-bottom: 23px;
+	}
+	.top,.footer{
+		width: 125%;
+	}
+}
+@media screen and (max-width: 465px){
+		.logo{
+			flex: 4;
+			background-image: url(../assets/images/dash.png),url(../assets/images/log.png);
+			background-position: 0px,30px;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 34px,32px;
+		
+			margin-left: 3px;
+    margin-right: -24px;
+		}
+		.bar{
+		background-position: 106px 2px;
+    	background-size: 40px;
+    	background-repeat: no-repeat;
+    
+    	margin-top: 0px;
+		margin-left: 84px;
+		}
+		.but1{
+			margin-left: -54px;
+		}
+		.box1{
+			width: 88%;
+			margin-left: 4px;
+		}
+		.box11 {
+			margin-left: 6px;
+		}
+		.box12 {
+			margin-left: 6px;
+		}
+		.box21 {
+			margin-left: 188px;
+		}
+		.box22 {
+			margin-left: 187px;
+		}
+		.trophy {
+			margin-left: 355px;
+		}
+		.trophycont {
+			margin-left: 354px;
+		}
+		.stats{
+			margin-left: 10px;
+    margin-top: 11px;
+}
+		.gsb{
+			margin-left: -41px;
+		}
+		.silver{
+			margin-right: 29px;
+		}
+		.alltag{
+			margin-left: 407px;
+		}
+		.whol1,.whol2{
+			margin-left: 7px;
+		}
+		.toptag{
+			margin-top: 22px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+		}
+		.p2 {
+			margin-left: -6px;
+		}
+		.p1 {
+			margin-bottom: -2px;
+			margin-left: -7px;
+		}
+		.next{
+			margin-left: 12px;
+		}
+		.nc2 {
+			font-size: 12px;
+		}
+		.posts2,.posts3{
+			margin-top: 50px;
+		}
+		.nt1{
+			margin-left: 16px;
+		}
+		.nt2{
+			margin-left: 408px;
+
+		}
+		.footer{
+			width: 127%;
+		}
+		.top{
+			width: 127%;
+		}
+		.btn{
+			margin-top: 40px;
+    margin-left: 19px;
+		}
+		i.fa-solid.fa-circle-question {
+			margin-left: -92px;
+		}
+		.nt11{
+			margin-top: 23px;
+    margin-left: 15px
+		}
+		}
+	
