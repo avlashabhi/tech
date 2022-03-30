@@ -12,35 +12,39 @@ body {
   border-bottom: 1px solid transparent;
   box-shadow: 0px 0px 10px lightgrey;
   display: flex;
-  justify-content: space-evenly;
+  
 }
 .logo {
-  width: 12%;
+  flex: 12%;
   background-image: url(../assets/images/stacklogo.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 162px;
+  background-size: 162px; 
+}
+.image{
+  width: 20%;
+  height: 20%;
 }
 .about {
-	width: 8%;
+	flex: 8%;
   padding: 11px 0px;
   text-align: center;
   opacity: 0.5;
 }
 .product {
-	width: 8%;
+	flex: 8%;
   text-align: center;
   padding: 11px 0px;
   opacity: 0.5;
 }
 .forteams {
-	width: 8%;
+	flex: 11%;
   text-align: center;
   padding: 11px 0px;
   opacity: 0.5;
 }
 .searchbar {
-  width: 56%;
+  flex: 53%;
   padding: 6px 0px;
 }
 .bar {
@@ -55,7 +59,7 @@ body {
   background-repeat: no-repeat;
 }
 .login {
-	width: 10%;
+	flex: 19%;
   text-align: center;
   padding: 5px 0px;
   color: #39739d;
@@ -1099,22 +1103,104 @@ img {
   margin-top: 203px;
   opacity: 0.5;
 }
+@media screen and (max-width: 1440px) {
+  .name{
+    font-size: 30px;
+  }
+  .collectives{
+    font-size: 8px;
+  }
+  .explore{
+    font-size: 10px;
+  }
+  .companies{
+    margin-left: 32px;
+  }
+  .content{
+    font-size: 8px;
+  }
+  .free{
+    background-size: 96px;
+  }
+  .createe{
+    background-color: #0a95ff;
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    color: white;
+    height: 30px;
+    font-size: 6px;
+    margin-left: 22px;
+    margin-top: 8px;
 
-@media screen and (max-width: 1024px) {
+  }
+  .what{
+    margin-left: 24px;
+  }
+  .view {
+    flex: 1;
+    font-size: 11px;
+    margin-top: 35px;
+    margin-left: 24px;
+    opacity: 0.5;
+}
+.btn1 {
+  opacity: 0.5;
+  margin-left: 1px;
+  margin-bottom: -54px;
+}
+.but1{
+  margin-left: -33px;
+}
+.gold{
+  margin-left: 4px;
+}
+.da1{
+  margin-left: 24px;
+}
+.da2{
+  margin-left: 12px;
+}
+.da3{
+  margin-left: 2px;
+}
+.bronze,.silver{
+  margin-left: 5px;
+}
+.bottomright {
+ 
+  margin-right: 14px;
+}
+.alltag{
+  margin-top: 27px;
+    margin-left: 480px;
+}
+.nt22 {
+  margin-left: 470px;
+}
+.net{
+  margin-left: -95px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .login {
+    flex: 19%;
   }
   .searchbar {
-    width: 40%;
+   flex: 40%;
   }
   .forteams {
   }
   .what {
   }
+  .but1{
+    margin-left: -34px;
+  }
   .createe {
     padding: 1px 10px;
   }
   .logo {
-    width: 12%;
+    flex: 12%;
     background-size: 138px;
   }
   .forteams {
@@ -1163,7 +1249,7 @@ img {
   }
   .alltag {
     margin-top: -32px;
-    margin-left: 515px;
+    margin-left: 473px;
   }
   .next {
     width: 91%;
@@ -1179,6 +1265,10 @@ img {
   .p2 {
     margin-left: 15px;
   }
+  .nc2{
+    font-size: 11px;
+  }
+  
   .next11 {
     display: block;
   }
@@ -1187,8 +1277,8 @@ img {
     margin-left: 31px;
   }
   .nt22 {
-    margin-left: 513px;
-    margin-top: -18px;
+    margin-left: 487px;
+        margin-top: -18px;
   }
   .nc3 {
     margin-top: 6px;
@@ -1197,8 +1287,8 @@ img {
     display: block;
   }
   .net {
-    margin-left: -29px;
-    display: block;
+    margin-left: -69px;
+        display: block;
     margin-top: -39px;
   }
   .nt1 {
@@ -1258,6 +1348,7 @@ img {
     background-size: 40px;
     background-repeat: no-repeat;
     padding: 5px 35px;
+    flex: 35%;
   }
   .stats {
   }
@@ -1270,7 +1361,7 @@ img {
     display: none;
   }
   .about {
-    display: none;
+    
   }
   .forteams {
     display: none;
@@ -1314,6 +1405,11 @@ img {
     margin-left: 85px;
     display: block;
     margin-top: -22px;
+  }
+  .stats{
+   
+      margin-top: 41px;
+  
   }
   .underblocks {
     margin-top: 82px;
@@ -1384,6 +1480,11 @@ img {
     margin-bottom: 23px;
   }
 }
+@media screen and (max-width: 680px) {
+  .mainleft{
+    display: none;
+  }
+}
 @media screen and (max-width: 465px) {
   .logo {
     background-image: url(../assets/images/dash.png),
@@ -1405,7 +1506,7 @@ img {
     margin-left: -54px;
   }
   .box1 {
-    width: 88%;
+    width: 93%;
     margin-left: 4px;
   }
   .box11 {
