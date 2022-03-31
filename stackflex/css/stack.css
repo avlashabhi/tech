@@ -1181,10 +1181,45 @@ img {
 .net{
   margin-left: -95px;
 }
+}
+@media screen and (min-width: 1025px)and (max-width: 1136px) {
+  .da1{
+    float: right;
+  }
+  .da2{
+float: right;  }
+  .da3{
+    float: right;
+    font-size: 11px;
+  }
+  .da4{
+      font-size: 12px;
+      float: right;
+    }
+    .da11{
+      float: right;
+     
+
+    }
+    .da12{
+      float: right;
+    }
+.da22{
+  
+    font-size: 12px;
+    float: right;
+}
+.gold{
+  width: 32%;
+}
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .login {
     flex: 19%;
+  }
+  .name{
+    font-size: 24px;
   }
   .searchbar {
    flex: 40%;
@@ -1329,6 +1364,61 @@ img {
   .da12 {
     float: right;
   }
+  .box1{
+    width: 96%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1014px) {
+  .name{
+    font-size: 19px;
+  }
+  .btn{
+    margin-left: 0px;
+  }
+.btn1{
+  margin-left: -3px;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 853px) {
+  .btn{
+    padding: 3px 6px;
+  }
+  .btn1{
+    margin-left: 1px;
+  }
+  .box1{
+    width: 98%;
+  }
+  .collectives{
+    font-size: 7px;
+  }
+  i.fa-solid.fa-circle-info {
+    font-size: 7px;
+}
+.explore{
+  background-size: 10px;
+  font-size: 7px;
+}
+.jobs{
+  margin-left: 13px;
+}
+.companies {
+  margin-left: 14px;
+}
+.free {
+  background-size: 69px;
+}
+.createe {
+  padding: 1px 2px;
+  margin-left: 15px;
+}
+.mainleft{
+  display: none;
+}
+.topleft1{
+  margin-left: 1px;
+}
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -1440,6 +1530,7 @@ img {
   }
   .nc3 {
     margin-top: 6px;
+    font-size: 12px;
   }
   .nc2 {
     font-size: 14px;
@@ -1479,10 +1570,72 @@ img {
     margin-top: 7px;
     margin-bottom: 23px;
   }
+  .gsb{
+    display: block;
+  }
+  .gold {
+    margin-left: 49px;
+    width: 44%;
+    float: left;
+}
+.silver{
+  float: left;
+  width: 44%;
+}
+.bronze {
+  float: left;
+  width: 89%;
+  margin-left: 47px;
+}
+.badges {
+  margin-left: 51px;
+}
+.alltag {
+  margin-top: 27px;
+  margin-left: 406px;
+}
+.nt1 {
+  margin-left: -2px;
+  font-size: 12px;
+  margin-top: 35px;
+}
+.nt2 {
+  margin-left: 465px;
+  opacity: 0.6;
+}
+.nt22 {
+  margin-left: 389px;
+}
+.da1 {
+  float: right;
+}
+.da2 {
+  float: right;
+}
+.da3 {
+  float: right;
+}
+.da11 {
+  float: right;
+}
+.da22 {
+  float: right;
+}
+.da4 {
+  float: right;
+}
+.da12 {
+  float: right;
+}
 }
 @media screen and (max-width: 680px) {
   .mainleft{
     display: none;
+  }
+}
+@media screen and (min-width: 465px) and (max-width: 536px) {
+  .btn{
+    margin-top: 47px;
   }
 }
 @media screen and (max-width: 465px) {
@@ -1506,7 +1659,7 @@ img {
     margin-left: -54px;
   }
   .box1 {
-    width: 93%;
+    width: 98%;
     margin-left: 4px;
   }
   .box11 {
@@ -1532,13 +1685,25 @@ img {
     margin-top: 11px;
   }
   .gsb {
-    margin-left: -41px;
+   
+  }
+  .badges{
+    margin-left: 21px;
+  }
+  .gold{
+    width: 97%;
+    margin-left: 12px;
   }
   .silver {
-    margin-right: 29px;
+    width: 97%;
+    margin-left: 12px;
+  }
+  .bronze{
+    width: 97%;
+    margin-left: 12px;
   }
   .alltag {
-    margin-left: 407px;
+    margin-left: 323px;
   }
   .whol1,
   .whol2 {
@@ -1579,8 +1744,8 @@ img {
     width: 127%;
   }
   .btn {
-    margin-top: 40px;
-    margin-left: 19px;
+    margin-top: 43px;
+    margin-left: 20px;
   }
   i.fa-solid.fa-circle-question {
     margin-left: -92px;
@@ -1589,4 +1754,8 @@ img {
     margin-top: 23px;
     margin-left: 15px;
   }
+  .stats {
+    margin-left: 10px;
+    margin-top: 39px;
+}
 }
