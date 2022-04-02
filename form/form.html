@@ -13,13 +13,28 @@
     <body>
         <div class="container">
             <h2>Sign up</h2>
-            <form action="#">
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" placeholder="your name" required> <br>
-                <label for="lname">Last Name:</label>
-                <input type="email" id="lname" name="lname" placeholder="last name" required> <br>
-                <label for="mail">Mail id:</label>
-                <input type="email" id="mail" name="email" placeholder="mail id" required> <br>
+            <form action="/" id="formid" onclick="validateForm()">
+                <div class="mainfield">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="your name" required>
+                    <i class="fa-solid fa-circle-check success"></i>
+                    <i class="fa-solid fa-circle-exclamation failure"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="last name" required>
+                    <i class="fa-solid fa-circle-check success"></i>
+                    <i class="fa-solid fa-circle-exclamation failure"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="mail">Mail id:</label>
+                    <input type="email" id="mail" name="email" placeholder="mail id" required>
+                    <i class="fa-solid fa-circle-check success"></i>
+                    <i class="fa-solid fa-circle-exclamation failure"></i>
+                    <small class="error"></small>
+                </div>
                 <label for="pass">Password:</label>
                 <input type="password" id="pass" name="password" placeholder="your name" required> <br>
                 <label for="tele">Mobile:</label>
@@ -41,11 +56,11 @@
                 </textarea><br>
                 <label for="file"></label><br>
                 <input type="file" id="file" name="file"><br>
-                <input type="submit" id="submit">
+                <button type="submit" id="submit" value="submit">Register</button>
             </form>
 
         </div>
-
+        <script src="js/form.js"></script>
     </body>
 
 </html>
