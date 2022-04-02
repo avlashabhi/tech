@@ -35,22 +35,32 @@
                     <i class="fa-solid fa-circle-exclamation failure"></i>
                     <small class="error"></small>
                 </div>
-                <label for="pass">Password:</label>
-                <input type="password" id="pass" name="password" placeholder="your name" required> <br>
-                <label for="tele">Mobile:</label>
-                <input type="tel" id="tele" name="number" placeholder="mobile" required> <br>
+                <div class="mainfield">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="password" placeholder="your name" required>
+                    <i class="fa-solid fa-circle-check success"></i>
+                    <i class="fa-solid fa-circle-exclamation failure"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="tele">Mobile:</label>
+                    <input type="tel" id="tele" name="number" placeholder="mobile" required>
+                    <i class="fa-solid fa-circle-check success"></i>
+                    <i class="fa-solid fa-circle-exclamation failure"></i>
+                    <small class="error"></small>
+                </div>
                 <label for="country">Country:</label>
                 <select id="country" name="country">
                     <option value="India">India</option>
                     <option value="Srilanka">Srilanka</option>
                 </select>
-                <label for="m f" class="gen">Gender:</label>
+                <label for="m" class="gen">Gender:</label>
                 <input type="radio" id="m" name="male" value="M">
                 <label for="m">Male</label>
                 <input type="radio" id="f" name="male" value="F">
                 <label for="f">Female</label><br>
                 <label for="date">DOB:</label>
-                <input type="date" id="date"><br>
+                <input type="date" id="date" min="2000-01-01" max="2010-10-12"><br>
                 <label for="address" class="addr">Address:</label><br>
                 <textarea id="address">
                 </textarea><br>

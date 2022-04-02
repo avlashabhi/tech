@@ -57,6 +57,8 @@ body{
     box-shadow: 0px 0px 2px;
     outline: transparent;
     margin-left: 30px;
+    margin-bottom: 19px;
+
 
    }
    input[id="pass"]{
@@ -67,6 +69,8 @@ body{
     box-shadow: 0px 0px 2px;
     outline: transparent;
     margin-left: 6px;
+    margin-bottom: 19px;
+
 
    }
    input[id="fname"]{
@@ -95,6 +99,8 @@ input#tele {
     box-shadow: 0px 0px 2px;
     outline: transparent;
     margin-left: 30px;
+    margin-bottom: 19px;
+
 }
 #country {
     width: 78%;
