@@ -1109,14 +1109,12 @@ a {
 }
 
 .footer {
-	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: black;
 	border: 1px solid black;
 }
 
-.flogo {}
 
 .f21 {
 	font-size: 14px;
@@ -1583,16 +1581,6 @@ a {
 	.footer {
 		flex-direction: column;
 	}
-
-	.f2 {}
-
-	.f3 {}
-
-	.f4 {}
-
-	.f5 {}
-
-	.f6 {}
 
 	.f22,
 	.f23,
