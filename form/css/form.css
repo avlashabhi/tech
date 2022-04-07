@@ -182,6 +182,7 @@ button {
     outline: transparent;
     border: 1px black;
     margin-bottom: 16px;
+    margin-top: 28px;
 }
 
 .addr {

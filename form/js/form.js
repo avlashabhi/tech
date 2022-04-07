@@ -9,6 +9,7 @@
  form = document.getElementById('formid');
  password = document.getElementById('pass');
  address = document.getElementById('address');
+ file = document.getElementById('file');
  success = document.querySelector('.fa-circle-check');
  failure = document.querySelector('.fa-circle-exclamation');
  fname = document.querySelector('.firstname');
@@ -25,7 +26,6 @@
  var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
  var phoneno = /^\d{10}$/;
  let nodigit = /^[a-zA-Z]*$/;
- var allowedExtensionsRegx = /(\.jpg|\.jpeg|\.png|\.gif)$/i;
  let previous = lname.previousElementSibling;
  let previousemail = eemail.previousElementSibling;
  let passs1previous = passs.previousElementSibling;
@@ -150,5 +150,19 @@
          address.nextElementSibling.innerHTML = "";
          address.classList.add('border1');
          address.classList.remove('border');
+     }
+     if (file.value === "") {
+         file.nextElementSibling.innerHTML = "Please upload image";
+     } else {
+         let validImageExtension = ["jpeg", "jpg"];
+         file.nextElementSibling.innerHTML = "";
+         let extensionPosition = file.value.lastIndexOf(".");
+         let inputGetExtension = file.value.substring(extensionPosition + 1);
+         let checkValue = validImageExtension.includes(inputGetExtension);
+         if (!checkValue) {
+             file.nextElementSibling.innerHTML = "Please upload valid jpeg file";
+         } else {
+             file.nextElementSibling.innerHTML = "";
+         }
      }
  }
