@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
     background-color: blueviolet;
@@ -12,10 +13,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-.h1{
+
+.h1 {
     text-align: center;
 }
-.container{
+
+.container {
     width: 50%;
     background-color: white;
     border-radius: 14px;
@@ -23,12 +26,14 @@ body{
     margin-top: 68px;
     margin-bottom: 58px;
     overflow: hidden;
-   }
-   input{
-       margin: 5px 0px;
-       
-   }
-   input[id="fname"]{
+}
+
+input {
+    margin: 5px 0px;
+
+}
+
+input[id="fname"] {
     width: 78%;
     padding: 10px 16px;
     border-radius: 6px;
@@ -36,9 +41,10 @@ body{
     box-shadow: 0px 0px 2px;
     outline: transparent;
     margin-bottom: 19px;
-  
-   }
-   input[id="lname"]{
+
+}
+
+input[id="lname"] {
     width: 78%;
     padding: 10px 16px;
     border-radius: 6px;
@@ -46,10 +52,10 @@ body{
     box-shadow: 0px 0px 2px;
     outline: transparent;
     margin-bottom: 19px;
-   
-   }
-   
-   input[id="mail"]{
+
+}
+
+input[id="mail"] {
     width: 78%;
     padding: 10px 16px;
     border-radius: 6px;
@@ -60,8 +66,9 @@ body{
     margin-bottom: 19px;
 
 
-   }
-   input[id="pass"]{
+}
+
+input[id="pass"] {
     width: 78%;
     padding: 10px 16px;
     border-radius: 6px;
@@ -72,25 +79,28 @@ body{
     margin-bottom: 19px;
 
 
-   }
-   input[id="fname"]{
+}
+
+input[id="fname"] {
     width: 78%;
     padding: 10px 16px;
     border-radius: 6px;
     border: 1px solid grey;
     box-shadow: 0px 0px 2px;
     outline: transparent;
-   }
-   h2{
+}
+
+h2 {
     text-align: center;
     opacity: 0.6;
     color: black;
-   }
-  
-   h4 {
-   
+}
+
+h4 {
+
     margin-top: 15px;
 }
+
 input#tele {
     width: 78%;
     padding: 10px 16px;
@@ -102,6 +112,7 @@ input#tele {
     margin-bottom: 19px;
 
 }
+
 #country {
     width: 78%;
     padding: 10px 16px;
@@ -110,30 +121,38 @@ input#tele {
     box-shadow: 0px 0px 2px;
     outline: transparent;
     margin-left: 22px;
-    margin-top: 6px;
+    margin-top: 4px;
+    margin-bottom: -9px;
 }
+
 #file {
     margin-left: 111px;
 }
-label{
+
+label {
     margin-left: 22px;
 }
+
 input#m {
     margin-left: 26px;
-    margin-top: 24px;
+    margin-top: 33px;
     margin-bottom: 24px;
 }
-.gen{
-        margin-left: 22px;
-    }
+
+.gen {
+    margin-left: 22px;
+}
+
 input#f {
     margin-left: 25px;
 }
+
 h4 {
     margin-top: 15px;
     margin-left: 22px;
 }
-#date{
+
+#date {
     width: 78%;
     padding: 10px 16px;
     border-radius: 6px;
@@ -143,16 +162,18 @@ h4 {
     margin-left: 43px;
     margin-top: 6px;
 }
-textarea{
+
+textarea {
     width: 78%;
-    padding: 10px 16px;
+    padding: 1px 4px;
     border-radius: 6px;
     border: 1px solid grey;
     box-shadow: 0px 0px 2px;
     outline: transparent;
     margin-left: 110px;
-    margin-top: 6px;
+    margin-top: -8px;
 }
+
 button {
     margin-left: 111px;
     padding: 7px 227px;
@@ -162,12 +183,15 @@ button {
     border: 1px black;
     margin-bottom: 16px;
 }
-.addr{
+
+.addr {
     margin-left: 21px;
 }
-.mainfield{
+
+.mainfield {
     position: relative;
 }
+
 .fa-circle-check {
     position: absolute;
     top: 15px;
@@ -175,16 +199,52 @@ button {
     visibility: hidden;
     color: #4caf50;
 }
-.fa-circle-exclamation{
+
+.fa-circle-exclamation {
     position: absolute;
-    color:red;
+    color: red;
     top: 15px;
     right: 34px;
-    visibility:hidden;
+    visibility: hidden;
 }
-.error{
+
+.error {
     position: absolute;
     top: 47px;
     left: 114px;
-    color:red;
+    color: red;
+}
+
+.failurered {
+    position: absolute;
+    color: red;
+    top: 16px;
+    right: 40px;
+
+    visibility: visible;
+}
+
+.successgreen {
+    position: absolute;
+    top: 15px;
+    right: 55px;
+
+    color: #4caf50;
+    visibility: visible;
+}
+
+.border {
+    border: 2px solid red !important;
+}
+
+.border1 {
+    border: 2px solid green !important;
+}
+
+option {
+    color: black;
+}
+
+select {
+    color: black;
 }
