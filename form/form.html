@@ -16,43 +16,44 @@
             <form action="/" id="formid" onclick="validateForm()">
                 <div class="mainfield">
                     <label for="fname">First Name:</label>
-                    <input class="firstname" type="text" id="fname" name="fname" placeholder="First name"
-                        onblur="validateForm()" required>
+                    <input title="Firstname" class="firstname" type="text" id="fname" name="fname"
+                        placeholder="First name" onblur="validateForm()">
                     <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
                     <small class="error"></small>
                 </div>
                 <div class="mainfield">
                     <label for="lname">Last Name:</label>
+                    <input title="Lastname" class="lastname" type="text" id="lname" name="lname" placeholder="Last name"
+                        onblur="validateForm()">
                     <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    <input class="lastname" type="text" id="lname" name="lname" placeholder="Last name"
-                        onblur="validateForm()" required>
                     <small class="error"></small>
 
 
                 </div>
                 <div class="mainfield">
                     <label for="mail">Mail id:</label>
+                    <input title="Email" class="email" type="email" id="mail" name="email"
+                        placeholder="example@gmail.com" onblur="validateForm()">
                     <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    <input class="email" type="email" id="mail" name="email" placeholder="example@gmail.com"
-                        onblur="validateForm()" required>
                     <small class="error"></small>
                 </div>
                 <div class="mainfield">
                     <label for="pass">Password:</label>
+                    <input title="Password" class="passs" type="password" id="pass" name="password"
+                        placeholder="Password">
                     <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    <input class="passs" type="password" id="pass" name="password" placeholder="Password" required>
                     <small class="error"></small>
                 </div>
                 <div class="mainfield">
                     <label for="tele">Mobile:</label>
+                    <input title="Mobile" class="teleee" type="tel" id="tele" name="number" placeholder="Mobile"
+                        onblur="validateForm()">
                     <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
-                    <input class="teleee" type="tel" id="tele" name="number" placeholder="Mobile"
-                        onblur="validateForm()" required>
                     <small class="error"></small>
                 </div>
                 <div class="mainfield">
@@ -64,19 +65,17 @@
                         <option value="China">China</option>
                         <option value="Pakisthan">Pakisthan</option>
                     </select>
-                    <small class="error"></small>
                     <i class="fa-solid fa-circle-check"></i>
                     <i class="fa-solid fa-circle-exclamation"></i>
+                    <small class="error"></small>
                 </div>
                 <div class="mainfield">
-
                     <label for="m" class="gen">Gender:</label>
                     <input type="radio" id="m" name="male" value="M">
                     <label for="m">Male</label>
                     <input type="radio" id="f" name="male" value="F">
                     <label class="lab" for="f">Female</label>
                     <small class="error"></small>
-
                 </div>
                 <div class="mainfield">
                     <label for="date">DOB:</label>
