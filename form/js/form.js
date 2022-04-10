@@ -51,6 +51,7 @@
      validateForm();
 
  });
+ firstname.addEventListener("blur", validateForm);
 
  function validateForm() {
      let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
