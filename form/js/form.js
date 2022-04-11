@@ -70,7 +70,7 @@
 
 
      } else {
-         debugger;
+
          //   small.innerHTML = " ";
          //   fname.classList.add('border1');
          //   fname.classList.remove('border');
@@ -161,9 +161,9 @@
          newsuccess(country, "");
      }
      if (male.checked || female.checked) {
-         lab.nextElementSibling.innerHTML = "";
+         lab.nextElementSibling.innerText = "";
      } else {
-         lab.nextElementSibling.innerHTML = "*Choose a gender";
+         lab.nextElementSibling.innerText = "*Choose a gender";
      }
 
      if (date.value === "") {
@@ -189,7 +189,7 @@
          newsuccess1(address, "")
      }
      if (file.value === "") {
-         file.nextElementSibling.innerHTML = "Please upload image";
+         file.nextElementSibling.innerText = "Please upload image";
      } else {
          let validImageExtension = ["jpeg", "jpg"];
          file.nextElementSibling.innerHTML = "";
@@ -197,9 +197,9 @@
          let inputGetExtension = file.value.substring(extensionPosition + 1);
          let checkValue = validImageExtension.includes(inputGetExtension);
          if (!checkValue) {
-             file.nextElementSibling.innerHTML = "Please upload valid jpeg file";
+             file.nextElementSibling.innerText = "Please upload valid jpeg file";
          } else {
-             file.nextElementSibling.innerHTML = "";
+             file.nextElementSibling.innerText = "";
          }
      }
  }
@@ -210,7 +210,7 @@
      i.nextElementSibling.nextElementSibling.classList.remove("failurered");
      // i.className = "border1";
      i.nextElementSibling.className = "fa-solid fa-circle-check successgreen";
-     i.parentElement.querySelector("small").innerHTML = message;
+     i.parentElement.querySelector("small").innerText = message;
 
 
  }
@@ -221,18 +221,18 @@
      i.nextElementSibling.nextElementSibling.classList.add("failurered");
      //  i.className = "border";
      //  i.nextElementSibling.className = "fa-solid fa-circle-exclamation failurered";
-     i.parentElement.querySelector("small").innerHTML = message;
+     i.parentElement.querySelector("small").innerText = message;
      i.nextElementSibling.className = "fa-solid fa-circle-check";
  }
 
  function newfailuree1(i, message) {
-     i.nextElementSibling.innerHTML = message;
+     i.nextElementSibling.innerText = message;
      i.classList.add('border');
      i.classList.remove('border1');
  }
 
  function newsuccess1(i, message) {
-     i.nextElementSibling.innerHTML = message;
+     i.nextElementSibling.innerText = message;
      i.classList.add('border1');
      i.classList.remove('border');
 
