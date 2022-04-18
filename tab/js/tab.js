@@ -24,9 +24,12 @@ $(document).ready(function () {
         $('#block14').show();
     });*/
     $('.tab').click(function () {
+        $('.tab').removeClass("select");
+        $(this).addClass("select");
         var tabContent = $(this).attr('data-tab');
         //  var tabContent = $(this).data('tab');
         $(".content").hide();
         $("." + tabContent).show();
     });
+
 });

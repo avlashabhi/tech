@@ -118,6 +118,11 @@ img {
     margin-left: 10px;
 }
 
+.select {
+    background-color: #46bfc1 !important;
+
+}
+
 
 #clear {
     clear: both;
