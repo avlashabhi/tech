@@ -7,7 +7,7 @@ $(document).ready(function () {
         // $(".musiccontent").children().removeClass("fa-angle-down").addClass("fa-angle-up");
     });
 
-
+    //xvxvcxzvxc
     // $(".musiccontent").dblclick(function () {
     //     $(".musiccontent").next(".musicp").stop(true).slideUp();
     //     $(".musiccontent").removeClass("extra");
