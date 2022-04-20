@@ -1,0 +1,70 @@
+img,
+svg {
+    vertical-align: middle;
+    height: 48px;
+    width: 63px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    width: 24%;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 2px grey;
+    padding: 2px 0px;
+    outline: transparent;
+    text-indent: 17px;
+}
+
+.under {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    color: #000;
+}
+
+.under1 {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 40px;
+    right: 9px;
+    color: #000;
+}
+
+.under2 {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 40px;
+    right: 18px;
+    color: #000;
+}
+
+.fa-user,
+.fa-heart,
+.fa-bag-shopping {
+    position: relative;
+}
+
+.input1 {
+    position: relative;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
