@@ -89,6 +89,8 @@ div #hovermen:hover .roww {
     z-index: 1;
     background-color: white;
 
+    box-shadow: 0px 0px 4px grey;
+
 }
 
 div .hovermenn:hover .roww {
@@ -98,6 +100,7 @@ div .hovermenn:hover .roww {
     left: 50px;
     z-index: 1;
     background-color: white;
+    box-shadow: 0px 0px 4px grey;
 
 }
 
