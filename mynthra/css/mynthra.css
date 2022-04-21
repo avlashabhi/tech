@@ -12,6 +12,7 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 input {
@@ -26,17 +27,17 @@ input {
 
 .under {
     position: absolute;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     position: absolute;
     top: 40px;
-    right: 5px;
+    right: 12px;
     color: #000;
 }
 
 .under1 {
     position: absolute;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     position: absolute;
     top: 40px;
@@ -46,7 +47,7 @@ input {
 
 .under2 {
     position: absolute;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     position: absolute;
     top: 40px;
@@ -70,7 +71,7 @@ input {
     left: 15px;
 }
 
-.row {
+.roww {
 
     display: none !important;
 
@@ -91,4 +92,69 @@ div #hovermen:hover .row {
 
 div #hovermen:hover .body {
     background-color: grey;
+}
+
+.home {
+    font-size: 14px;
+    opacity: 0.7;
+    text-transform: capitalize;
+}
+
+.hrithi {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.heading {
+
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.hrithik11,
+.hrithik12 {
+    width: 326px;
+    height: 406px
+}
+
+.hoverzoom:hover {
+    transition: all .3s linear;
+}
+
+.star {
+    color: green;
+    font-size: 10px;
+
+}
+
+.incl {
+    font-size: 14px;
+}
+
+.size {
+    font-size: 12px;
+}
+
+.circle {
+
+    border-radius: 50%;
+    border: 1px solid black;
+    outline: none;
+
+
+    padding: 14px 22px;
+}
+
+
+
+.cir {
+    position: relative;
+}
+
+.sp {
+    position: absolute;
+    top: 0px;
+    left: 42px;
+
 }
