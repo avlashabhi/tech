@@ -249,14 +249,12 @@ div #hovermen:hover body {
 
 }
 
-.checkmain {
-    position: relative;
-}
+.checkmain {}
 
 .check {
-    position: absolute;
+    position: relative;
     top: 10px;
-    right: 263px;
+    right: 50px;
     font-size: 13px;
 }
 
@@ -270,6 +268,7 @@ div #hovermen:hover body {
 
 .mainimg img {
     transition: all 1.3s ease;
+    cursor: zoom-in
 }
 
 .mainimg:hover img {
@@ -492,6 +491,10 @@ div #hovermen:hover body {
     padding-right: 8px;
     padding-left: 8px;
     border-bottom: 4px solid red;
+}
+
+.checkk {
+    position: relative;
 }
 
 @media only screen and (max-width:1000px) {
