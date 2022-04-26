@@ -15,14 +15,19 @@ body {
     font-family: sans-serif;
 }
 
+
 input {
     width: 100%;
     border: 1px solid transparent;
-    box-shadow: 0px 0px 2px grey;
+    box-shadow: 0px 0px 1px grey;
     padding: 2px 0px;
     outline: transparent;
     text-indent: 17px;
     position: relative;
+}
+
+.fourr {
+    font-size: 9px;
 }
 
 .under {
@@ -77,6 +82,28 @@ input {
 
 }
 
+.badgee {
+    position: relative;
+    top: -23px;
+    left: 7px;
+    font-size: 11px;
+    border-radius: 2px;
+    padding: 2px 2px
+}
+
+.badgee1 {
+    color: #03a685;
+    font-size: 8px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    position: relative;
+    top: -38px;
+    height: 70px;
+}
+
 
 
 
@@ -92,6 +119,7 @@ div #hovermen:hover .roww {
     box-shadow: 0px 0px 4px grey;
 
 }
+
 
 div .hovermenn:hover .roww {
     display: flex !important;
@@ -194,7 +222,7 @@ div #hovermen:hover body {
 
 .hrithik11,
 .hrithik12 {
-    width: 326px;
+    width: 363px;
     height: 406px
 }
 
@@ -226,6 +254,11 @@ div #hovermen:hover body {
     height: 25px;
 }
 
+.circle:hover {
+    box-shadow: 0px 0px 3px white;
+    border: 1px solid red;
+}
+
 .circlee {
     border-radius: 50%;
     border: 1px solid transparent;
@@ -236,7 +269,10 @@ div #hovermen:hover body {
     height: 25px;
 }
 
-
+.circlee:hover {
+    box-shadow: 0px 0px 3px white;
+    border: 1px solid red;
+}
 
 .cir {
     position: relative;
@@ -249,7 +285,7 @@ div #hovermen:hover body {
 
 }
 
-.checkmain {}
+
 
 .check {
     position: relative;
@@ -267,12 +303,12 @@ div #hovermen:hover body {
 }
 
 .mainimg img {
-    transition: all 1.3s ease;
+    transition: all 1.0s ease;
     cursor: zoom-in
 }
 
 .mainimg:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .plan {
@@ -408,6 +444,12 @@ div #hovermen:hover body {
     box-shadow: 0px 0px 2px black;
 }
 
+.more-button:hover {
+    border: 1.5px solid red;
+    box-shadow: 0px 0px 0px white;
+}
+
+
 .more-button-1 {
     border-radius: 50px;
     border: 1px solid transparent;
@@ -418,6 +460,11 @@ div #hovermen:hover body {
     box-shadow: 0px 0px 2px black;
 }
 
+.more-button-1:hover {
+    border: 1.5px solid red;
+    box-shadow: 0px 0px 0px white;
+}
+
 .more-button-2 {
     border-radius: 50px;
     border: 1px solid transparent;
@@ -426,6 +473,11 @@ div #hovermen:hover body {
     font-size: 14px;
     background-color: white;
     box-shadow: 0px 0px 2px black;
+}
+
+.more-button-2:hover {
+    border: 1.5px solid red;
+    box-shadow: 0px 0px 0px white;
 }
 
 .im1 {
@@ -496,6 +548,109 @@ div #hovermen:hover body {
 .checkk {
     position: relative;
 }
+
+button.btn.btnn.btn-lg.px-3.py-3.mr-3.ms-4.mx-2.btn-danger {
+    font-size: 15px;
+}
+
+button.btn.btnn.btn-lg.px-4.py-3.mr-3.mx-2.btn-light.border {
+    font-size: 15px;
+}
+
+button.btn.btnn.btn-sm.px-5.py-3.mr-3.ms-4.mx-2.btn-danger {
+    background-color: #ff3e6c;
+}
+
+.pp {
+    height: 6px;
+    border-radius: 0px;
+    width: 70%;
+}
+
+.pp1 {
+    height: 6px;
+    border-radius: 0px;
+    width: 20%;
+}
+
+.pp2 {
+    height: 6px;
+    border-radius: 0px;
+    width: 8%;
+}
+
+.pp3 {
+    height: 6px;
+    border-radius: 0px;
+    width: 2%;
+}
+
+.pp4 {
+    height: 6px;
+    border-radius: 0px;
+    width: 6%;
+}
+
+.ph {
+    height: 6px;
+}
+
+.progress {
+    display: flex;
+    height: 0.3rem !important;
+    width: 10.5rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0rem;
+    position: absolute;
+    left: 25px;
+    bottom: 8px;
+}
+
+.ppp {
+    position: relative;
+    top: -8px;
+    /* right: 6px; */
+    left: 0px;
+}
+
+.ppp1 {
+    position: relative;
+    top: -26px;
+    left: 165px;
+}
+
+.pppp {
+    position: relative;
+    top: 0px;
+    /* right: 6px; */
+    left: 40px;
+}
+
+.pppp1 {
+    position: relative;
+    top: -18px;
+    left: 207px;
+}
+
+.spaa1 {
+    border: 1px solid transparent;
+    background-color: #03a685;
+    font-size: 11px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: -29px;
+
+}
+
+.spaaa1 {
+    font-size: 8px;
+}
+
+
+
 
 @media only screen and (max-width:1000px) {
     .anchormen:hover {
