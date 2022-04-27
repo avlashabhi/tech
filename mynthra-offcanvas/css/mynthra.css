@@ -39,7 +39,9 @@ input {
     background-position: center;
     background-size: 100%;
 }
-
+div#togg {
+    width: 238px;
+}
 .under {
     position: absolute;
     font-size: 12px;
