@@ -65,3 +65,27 @@ const path = require("path");
 }, (err) => {
     if (err) throw err;
 });*/
+/*fs.mkdir(path.join(__dirname, "/api"), {}, (err) => {
+    if (err) throw err;
+});*/
+/*fs.writeFile(path.join(__dirname, "/api", "api.text"), "username:debug media", (err) => {
+    if (err) throw err;
+});*/
+/*const user = "abhi";
+fs.appendFile(path.join(__dirname, "/api", "api.text"), `username:${user}`, (err) => {
+    if (err) throw err
+});*/
+/*const user1 = "abhi1";
+fs.appendFile(path.join(__dirname, "/api", "api.text"), `\n username:${user1}`, (err) => {
+    if (err) throw err
+});*/
+/*fs.readFile(path.join(__dirname, "/api", "api.text"), "utf-8", (err, data) => {
+    if (err) throw err;
+    console.log(data);
+});*/
+/*const EventEmitter = require("events");
+const emitter = new EventEmitter();
+emitter.on("message", (data) => console.log(data.text));
+emitter.emit("message", {
+    text: "userlogged"
+});*/
