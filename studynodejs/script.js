@@ -45,8 +45,8 @@ console.log(path.parse(__filename));*/
 /*const path = require("path");
 console.log(path.join(__dirname, "apifolder", "script.js"));*/
 
-const fs = require("fs");
-const path = require("path");
+// const fs = require("fs");
+// const path = require("path");
 // console.log(fs);
 /*fs.mkdir(path.join(__dirname, "/api"), {}, (err) => {
     if (err) throw err;
@@ -89,3 +89,91 @@ emitter.on("message", (data) => console.log(data.text));
 emitter.emit("message", {
     text: "userlogged"
 });*/
+
+
+//method1
+/*const http = require("http");
+http.createServer((req, res) => {
+    res.write("this is nodejs");
+    res.end();
+}).listen(3001, () => console.log("server is reunning"));*/
+
+
+//method2
+/*const http = require("http");
+const server = http.createServer((req, res) => {
+    res.write("this is nodemon");
+    console.log(req.url);
+    res.end();
+});
+const PORT = process.env.PORT || 3001;
+server.listen(PORT, () => console.log(`server is running on ${PORT}`));*/
+
+
+/*const http = require("http");
+const server = http.createServer((req, res) => {
+    res.writeHead(200, {
+        "Content-Type": "application/json"
+    });
+    res.end("<h1>content type specifying</h1>");
+});
+const PORT = process.env.PORT || 3001;
+server.listen(PORT, () => console.log(`server is running on ${PORT}`));*/
+
+/*const http = require("http");
+const server = http.createServer((req, res) => {
+    res.writeHead(200, {
+        "Content-Type": "text/html"
+    });
+    res.end("<h1>content type specifying</h1>");
+});
+const PORT = process.env.PORT || 3001;
+server.listen(PORT, () => console.log(`server is running on ${PORT}`));*/
+
+
+/*const fs = require("fs");
+const path = require("path");
+const http = require("http");
+// fs.mkdir(path.join(__dirname, "views"), {}, (err) => {
+//     if (err) throw err;
+// });
+// fs.writeFile(path.join(__dirname, "/views", "home.html"), "", (err) => {
+//     if (err) throw err;
+// });
+const server = http.createServer((req, res) => {
+    fs.readFile(path.join(__dirname, "views", "home.html"), "utf-8", (err, data) => {
+        if (err) throw err;
+        res.writeHead(200, {
+            "Content-Type": "text/html"
+        });
+        res.end(data);
+    });
+});
+const PORT = process.env.PORT || 3001;
+server.listen(PORT, () => console.log(`server is running on ${PORT}`));*/
+
+/*const fs = require("fs");
+const path = require("path");
+const http = require("http");
+const server = http.createServer((req, res) => {
+    if (req.url === "/home") {
+        fs.readFile(path.join(__dirname, "views", "home.html"), "utf-8", (err, data) => {
+            if (err) throw err;
+            res.writeHead(200, {
+                "Content-Type": "text/html"
+            });
+            res.end(data);
+        });
+    }
+    if (req.url === "/contact") {
+        fs.readFile(path.join(__dirname, "views", "contact.html"), "utf-8", (err, data) => {
+            if (err) throw err;
+            res.writeHead(200, {
+                "Content-Type": "text/html"
+            });
+            res.end(data);
+        });
+    }
+});
+const PORT = process.env.PORT || 3001;
+server.listen(PORT, () => console.log(`server is running on ${PORT}`));*/
