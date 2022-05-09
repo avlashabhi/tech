@@ -388,3 +388,29 @@ body {}
     top: 1px;
     left: -1px;
 }
+
+.hr234 {
+    margin-left: 89px;
+    margin-right: 226px;
+    opacity: 0.4;
+    margin-top: 24px;
+    margin-bottom: 3px;
+    top: -32px;
+    position: relative;
+}
+
+.ten234 {
+    margin-left: 119px;
+    opacity: 0.6;
+    font-size: 12px;
+    margin-top: -29px;
+    position: relative;
+    top: -5
+}
+
+.ten330 {
+    margin-left: 124px;
+    opacity: 0.6;
+    font-size: 9px;
+    margin-top: 6px
+}
